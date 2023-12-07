@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#container{
+
+    background-color: rgb(175, 175, 212);
+   padding: 20px;
+    border: 1px solid red;
+}
+   

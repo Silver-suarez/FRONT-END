@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Likes</title>
+  <style>
+    .cuadro {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .parte-1 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cuadro" id="cuadro1">
+    <div class="parte-1">
+      <h2 class="titulo">Neil M</h2>
+      <div class="contador">0</div> <span>"like(s)"</span>
+      <button onclick="contarLikes(1)">Like</button>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, neque.</p>
+  </div>
+
+ 
+
+
+
+  
+
+  <div class="cuadro" id="cuadro2">
+    <div class="parte-1">
+      <h2 class="titulo">Otro Usuario</h2>
+      <div class="contador">0</div> <span>"like(s)"</span>
+      <button onclick="contarLikes(2)">Like</button>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, neque.</p>
+  </div>
+
+  <div class="cuadro" id="cuadro3">
+    <div class="parte-1">
+      <h2 class="titulo">Otro Usuario Más</h2>
+      <div class="contador">0</div> <span>"like(s)"</span>
+      <button onclick="contarLikes(3)">Like</button>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, neque.</p>
+  </div>
+
+  <script>
+    var contadores = [0, 0, 0];
+
+    function contarLikes(indice) {
+      contadores[indice - 1]++;
+      document.getElementById('cuadro' + indice).querySelector('.contador').innerHTML = contadores[indice - 1];
+    }
+  </script>
+
+</body>
+</html>

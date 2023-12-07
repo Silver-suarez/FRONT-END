@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evento onclick en JavaScript</title>
+  <style>
+    .myButton {
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="miBoton" class="myButton">Haz clic</button>
+
+  <script>
+    // Seleccionamos el elemento por su id
+    var miBoton = document.getElementById("miBoton");
+
+    // Asignamos una función al evento onclick
+    miBoton.onclick = function() {
+      alert("¡Se hizo clic en el botón!");
+    };
+  </script>
+
+</body>
+</html>

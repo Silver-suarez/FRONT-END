@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+    <div>
+        <form action="">
+            <label for="">Primer Nombre: *</label>
+            <input type="text" name="primer nombre" placeholder="Primer Nombre">
+            <br>
+            <label for="">Segundo Nombre: *</label>
+            <input type="text" name="Segundo Nombre" placeholder="Segundo Nombre">
+            <br>
+            <label for="">Direccion de correo: *</label>
+            <input type="text" name="Direccion de correo" placeholder="Direccion de correo">
+            <br>
+            <label for="">Contraseña: *</label>
+            <input type="text" name="Contraseña" placeholder="contraseña">
+            <br>
+            <label for="">confirmar contraseña: *</label>
+            <input type="text" name="confirmar contraseña" placeholder="confirmar contraseña">
+            <br>
+            <label for="">cumpleaños</label>
+            <input type="date" name="Fecha de nacimiento">
+
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="">
+            <label for="">Identidad de Genero:</label>
+            <br>
+            <input type="radio" name="genero" id="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="genero" id="Femenino">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" name="genero" id="No binario">
+            <label for="No binario">No binario</label>
+            <input type="radio" name="genero" id="Prefiero No Responder">
+            <label for="Prefiero No Responder">Prefiero No Responder</label>
+            <br>
+            <label for="">una breve descripcion sobre mi:</label>
+            <br>
+            <textarea name="comentario" cols="60%" rows="5"></textarea>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form action="">
+            <label for="">lenguaje Favorito</label>
+            <select name="lenguaje Favorito" id="">
+                <option value="">Java Script</option>
+                <option value="">Html</option>
+                <option value="">Pyton</option>
+                <option value="">CSS</option>
+                <option value="">otro</option>
+            </select>
+            <br>
+            <input type="checkbox" name="aceptar" id="aceptar">
+            <label for="aceptar">Si, Me gustaria recibir actualizaciones periodicas por correo electronico</label>
+            <br>
+            <input type="submit" value="Crear una Cuenta">
+            <br>
+            <label for="">*Indicar un campo requerido</label>
+        </form>
+    </div>
+</body>
+
+</html>

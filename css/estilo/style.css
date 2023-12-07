@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+h1 {
+    background-color: black;  
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+ font-size: 400%;
+ 
+margin-top: 10px;
+}
+
+.My {
+color: white;
+}
+
+#mycloud{
+    color: white;
+}
+span {
+    color: rgb(27, 116, 116);
+}
+
+
+.Cloud {
+    color: aqua;
+}
+
+h2 {
+    background-color: purple;
+    text-align: center;
+    font: italic;
+    color: white;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    
+}
+
+h3 {
+    background-color: paleturquoise;
+    text-align: end;
+    text-decoration: underline;
+    font-size: xx-large;
+    
+}
+#Cuadro{
+    margin: 10px 20px 15px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

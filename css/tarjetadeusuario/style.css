@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-flex{
+  
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.Tarjeta {
+    width: 100%;
+    border: 2px solid #9ba39e;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.encabezado{
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.cuerpo{
+    padding: 20px;
+}
+
+.cuerpo h1, 
+.cuerpo h3,
+.cuerpo p {
+    margin: 20px 0px;
+}
+
+.imagen{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icono {
+    height: 20px;
+
+}
+
+a {
+    color: #17a2b8;
+}

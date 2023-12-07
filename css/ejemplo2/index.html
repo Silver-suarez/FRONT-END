@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel de Imágenes</title>
+  <style>
+    /* Estilos para el contenedor del carrusel */
+    #carrusel {
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Estilos para las imágenes */
+    .imagen-carrusel {
+      display: none;
+      width: 100%;
+      height: auto;
+    }
+
+    /* Estilos para el botón */
+    #botonSiguiente {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Contenedor del carrusel -->
+  <div id="carrusel">
+    <!-- Imágenes del carrusel -->
+    <img src="..//ejemplo1/img/espacio.jpg" alt="Imagen 1" class="imagen-carrusel">
+    <img src="../ejemplo1/img/mercurio.jpg" alt="Imagen 2" class="imagen-carrusel">
+    <img src="../ejemplo1/img/zetaoph.jpg" alt="Imagen 3" class="imagen-carrusel">
+  </div>
+
+  <!-- Botón para cambiar a la siguiente imagen -->
+  <button id="botonSiguiente" onclick="cambiarImagen()">Siguiente</button>
+
+  <script>
+    var indiceImagenActual = 0;
+    var imagenes = document.getElementsByClassName('imagen-carrusel');
+
+    // Función para cambiar la imagen
+    function cambiarImagen() {
+      imagenes[indiceImagenActual].style.display = 'none';
+      indiceImagenActual = (indiceImagenActual + 1) % imagenes.length;
+      imagenes[indiceImagenActual].style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
+
+
+

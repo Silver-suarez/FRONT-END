@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+.top {
+    background-color: black;
+
+}
+
+.morado {
+    height: 10px;
+    background-color: blueviolet;
+}
+
+.GaminDojo {
+    margin-left: 100px;
+    font-size: xx-large;
+}
+
+.Dojo {
+    color: rgb(139, 69, 148);
+}
+
+.nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.iconos li {
+    width: 100px;
+
+}
+
+.carrito {
+    transform: scaleX(-1);
+    height: 40px;
+}
+
+.divisa {
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.lupa {
+    height: 40px;
+}
+
+#contador {
+    display: inline-block;
+    text-align: justify;
+}
+
+/* -------------------------------------------------------- fin de la parte superior */
+
+.containe {
+    width: auto;
+    margin: 0 auto;
+
+    background-color: rgb(250, 238, 221);
+}
+
+#hig {
+
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.img-carrusel {
+    border: 2px solid black;
+    height: 250px;
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+
+.botonSiguiente {
+    background-color: rgb(250, 238, 221);
+    border: none;
+}
+
+
+
+.skip-r {
+    transform: scaleX(-1);
+}
+
+
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.lineas {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lineas button {
+    width: 50px;
+    height: 7px;
+    background-color: rgb(149, 147, 147);
+    border-radius: 20%;
+    border: none;
+    margin: 15px;
+}
+
+#img-morada {
+    background-color: blueviolet;
+}
+
+.row-2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.cafe,
+.pixel,
+.stonepunk {
+
+    margin: 30px;
+    background-color: white
+}
+
+.cafe-neko,
+.pixel-ninja,
+.stonepunk-BCE {
+    width: 220px;
+    margin-bottom: 10px;
+
+}
+
+.windows,
+.apple,
+.linux {
+    width: 30px;
+}
+
+.desc,
+.precio,
+.comprar {
+
+
+    display: inline-block;
+    margin: 10px;
+    color: aliceblue;
+
+}
+
+.precio {
+    color: black;
+
+}
+
+.precio s {
+    color: gray;
+    font-size: smaller;
+
+}
+
+.desc {
+    background-color: rgb(106, 8, 124);
+
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.comprar {
+    background-color: rgb(108, 172, 108);
+    padding: 12px;
+    border: 1px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#contador{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+

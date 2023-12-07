@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de cinturon GamingDojo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div class="top">
+        <div class="morado"></div>
+        <nav class="nav">
+            <h1 class="GaminDojo">Gaming<SPAN class="Dojo">Dojo</SPAN></h1>
+            <ul class="iconos">
+                <li><select name="snack" class="divisa">
+                        <option value="">Euro €</option>
+                        <option value="">Dolar $</option>
+                        <option value="">Yenes ¥ </option>
+                        <option value="">Rublo ₽</option>
+                    </select></li>
+                <li><img src="img/cart-light.png" alt="carrito de compras" class="carrito">
+                    <div id="contador">0</div>
+                </li>
+
+                <li><img src="img/search-light.png" alt="lupa de busqueda" class="lupa"></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="containe">
+        
+      
+        <div class="row-1">
+          
+            <div class="carrusel">
+                <h4 id="hig">Highlights</h4>
+                   
+                <button class="botonSiguiente" onclick="cambiarImagen()"><img src="img/chevron-left.png" alt="skip-iz"
+                        class="skip-l"></button>
+                <img src="img/stonepunk.png" alt="foto ejemplo" class="img-carrusel">
+                <img src="img/pixel-ninjas-2.png" alt="foto ejemplo" class="img-carrusel" >
+                <img src="img/cafe-neko.png" alt="foto ejemplo" class="img-carrusel">
+                <button class="botonSiguiente" onclick="cambiarImagen()"><img src="img/chevron-left.png" alt="skip-right"
+                        class="skip-r"></button>
+
+            </div>
+
+            <div class="lineas">
+                <button></button>
+                <button id="img-morada"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="cafe">
+                <img src="img/cafe-neko.png" alt="" class="cafe-neko">
+                <p>Cafe Neko: Gold Edition</p>
+                <img src="img/windows.png" alt="" class="windows">
+                <img src="img/apple.png" alt="" class="apple">
+                <div>
+                    <div class="desc">-20%</div>
+                    <div class="precio">
+                        <p><s>€14.98</s></p>
+                        <p>€10.49</p>
+                    </div>
+                    <button onclick="contarCompras()" class="comprar">Buy</button>
+                </div>
+
+
+
+            </div>
+            <div class="pixel">
+                <img src="img/pixel-ninjas-2.png" alt="" class="pixel-ninja">
+                <p>Pixel Ninjas 2</p>
+                <img src="img/windows.png" alt="" class="windows">
+                <img src="img/apple.png" alt="" class="apple">
+
+                <div>
+                    <div class="desc">-10%</div>
+                    <div class="precio">
+                        <p><s>€8.19</s></p>
+                        <p>€7.39</p>
+                    </div>
+                    <button onclick="contarCompras()" class="comprar">Buy</button>
+                </div>
+
+
+
+            </div>
+            <div class="stonepunk">
+                <img src="img/stonepunk.png" alt="" class="stonepunk-BCE">
+                <p>Stonepunk 10000 BCE</p>
+                <img src="img/windows.png" alt="" class="windows">
+                <img src="img/apple.png" alt="" class="apple">
+                <img src="img/linux.png" alt="" class="linux" onclick="clicklinux()">
+                <div>
+                    <div class="desc">NEW</div>
+                    <div class="precio">
+                        <p><br></p>
+                        <p>€19.99</p>
+                    </div>
+                    <button onclick="contarCompras()" class="comprar">Buy</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+       
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
